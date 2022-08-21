@@ -14,7 +14,7 @@ This is the frontned of PepeHub social app built in Vue3
 -   [x] Add new pepe
 -   [x] Fetching the most popular pepes
 -   [x] Fetching the most popular users
--   [ ] Search users
+-   [x] Search users
 
 ## Development Guide
 
