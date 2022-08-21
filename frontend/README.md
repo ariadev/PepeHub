@@ -1,35 +1,39 @@
-# PepeHub
+# PepeHub Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the frontned of PepeHub social app built in Vue3
 
-## Recommended IDE Setup
+## Todo Roadmap
+
+-   [ ] Setting up TailwindCSS and remove boilerplate
+-   [ ] Start with the Login and Register page
+-   [ ] Layout and Header component
+-   [ ] Profile page
+-   [ ] Edit profile page
+-   [ ] Timeline page
+-   [ ] Fetching the data from the API and showing in the Timeline
+-   [ ] Add new pepe
+-   [ ] Fetching the most popular pepes
+-   [ ] Fetching the most popular users
+-   [ ] Search users
+
+## Development Guide
+
+### Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### Project Setup
 
 ```sh
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Compile and Hot-Reload for Development
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Compile and Minify for Production
 npm run build
-```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
+# Run Unit Tests https://vitest.dev
 npm run test:unit
 ```
