@@ -3,6 +3,7 @@
 	import Timeline from "../components/Timeline.vue";
 	import MostPopularPepes from "../components/MostPopularPepes.vue";
 	import MostPopularUsers from "../components/MostPopularUsers.vue";
+	import SearchComponent from "../components/SearchComponent.vue";
 </script>
 
 <template>
@@ -15,6 +16,7 @@
 		</main>
 
 		<div class="lg:w-2/6 space-y-3 hidden lg:inline-block">
+			<SearchComponent />
 			<MostPopularPepes />
 			<MostPopularUsers />
 		</div>
