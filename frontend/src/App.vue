@@ -4,7 +4,7 @@
 </script>
 
 <template>
-	<div class="space-y-3 m-3">
+	<div class="space-y-3 m-3 lg:mx-auto lg:w-6/12">
 		<Header />
 		<div class="">
 			<RouterView />

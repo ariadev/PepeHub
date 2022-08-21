@@ -5,12 +5,12 @@
 
 <template>
 	<div class="p-3 border shadow bg-white rounded-lg flex flex-row">
-		<div class="flex w-1/6 flex-col justify-between">
+		<div class="flex lg:w-1/12 w-1/6 flex-col justify-between">
 			<img src="@/assets/avatar-placeholder.png" class="rounded-full" alt="pepe user avatar" />
 
 			<SinglePepeRate />
 		</div>
-		<div class="flex flex-col w-5/6 ml-3">
+		<div class="flex flex-col lg:w-11/12 w-5/6 ml-3">
 			<div class="border-b pb-1 mb-1">
 				<RouterLink to="/pepe" class="flex underline text-blue-900 flex-col w-full">
 					This is pepe title that you entered
