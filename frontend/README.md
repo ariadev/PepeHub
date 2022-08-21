@@ -9,9 +9,9 @@ This is the frontned of PepeHub social app built in Vue3
 -   [ ] Layout and Header component
 -   [ ] Profile page
 -   [ ] Edit profile page
--   [ ] Timeline page
+-   [x] Timeline page
 -   [ ] Fetching the data from the API and showing in the Timeline
--   [ ] Add new pepe
+-   [x] Add new pepe
 -   [ ] Fetching the most popular pepes
 -   [ ] Fetching the most popular users
 -   [ ] Search users

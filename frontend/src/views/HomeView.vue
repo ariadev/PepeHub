@@ -1,7 +1,13 @@
-<script setup></script>
+<script setup>
+	import AddNewPepe from "../components/AddNewPepe.vue";
+	import Timeline from "../components/Timeline.vue";
+</script>
 
 <template>
-	<main>
-		<h3>Welcome to PepeHub</h3>
+	<main class="space-y-3">
+		<!-- Create new pepe -->
+		<AddNewPepe />
+
+		<Timeline />
 	</main>
 </template>
