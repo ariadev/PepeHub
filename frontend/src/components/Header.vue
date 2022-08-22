@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<header class="flex flex-row justify-between items-center shadow-md px-2 py-1 rounded-lg">
+	<header class="flex flex-row justify-between border items-center shadow-md px-2 py-1 rounded-lg">
 		<div>
 			<RouterLink class="p-3 text-lg" to="/">
 				<i class="fi fi-rr-home lg:hidden"></i>
