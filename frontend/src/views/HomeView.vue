@@ -1,9 +1,9 @@
 <script setup>
 	import AddNewPepe from "../components/AddNewPepe.vue";
 	import Timeline from "../components/Timeline.vue";
-	import MostPopularPepes from "../components/MostPopularPepes.vue";
-	import MostPopularUsers from "../components/MostPopularUsers.vue";
-	import SearchComponent from "../components/SearchComponent.vue";
+	import MostPopularPepesSidebar from "../components/MostPopularPepesSidebar.vue";
+	import MostPopularUsersSidebar from "../components/MostPopularUsersSidebar.vue";
+	import SearchSidebar from "../components/SearchSidebar.vue";
 	import Header from "../components/Header.vue";
 </script>
 
@@ -20,9 +20,9 @@
 			</main>
 
 			<div class="lg:w-2/6 space-y-3 hidden lg:inline-block">
-				<SearchComponent />
-				<MostPopularPepes />
-				<MostPopularUsers />
+				<SearchSidebar />
+				<MostPopularPepesSidebar />
+				<MostPopularUsersSidebar />
 			</div>
 		</div>
 	</div>
