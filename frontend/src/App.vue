@@ -1,15 +1,9 @@
 <script setup>
 	import { RouterLink, RouterView } from "vue-router";
-	import Header from "./components/Header.vue";
 </script>
 
 <template>
-	<div class="space-y-3 m-3 lg:mx-auto lg:w-6/12">
-		<Header />
-		<div class="">
-			<RouterView />
-		</div>
-	</div>
+	<RouterView />
 </template>
 
 <style scoped>
