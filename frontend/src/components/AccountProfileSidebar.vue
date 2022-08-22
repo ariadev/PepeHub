@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<div class="p-3 rounded-lg shadow space-y-3 flex flex-col items-center space-y-3">
+	<div class="p-3 rounded-lg shadow space-y-3 flex flex-col items-center">
 		<img src="@/assets/avatar-placeholder.png" width="80" class="rounded-full" alt="" />
 		<div class="text-center space-y-1">
 			<p class="font-medium text-sm">@ariaseyedahmadi</p>

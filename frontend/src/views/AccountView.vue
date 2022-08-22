@@ -1,8 +1,8 @@
 <script setup>
 	import Header from "../components/Header.vue";
-	import AccountProfileSidebar from "../components/AccountProfileSidebar.vue";
 	import AccountTabs from "../components/AccountTabs.vue";
 	import AccountYourPepes from "../components/AccountYourPepes.vue";
+	import AccountProfileSidebar from "../components/AccountProfileSidebar.vue";
 </script>
 
 <template>
@@ -21,7 +21,7 @@
 			</main>
 
 			<div class="lg:w-2/6 space-y-3 hidden lg:inline-block">
-				<AccountProfileSiderbar />
+				<AccountProfileSidebar />
 			</div>
 		</div>
 	</div>
