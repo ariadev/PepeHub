@@ -5,8 +5,8 @@ This is the frontned of PepeHub social app built in Vue3
 ## Todo Roadmap
 
 -   [x] Setting up TailwindCSS and remove boilerplate
--   [ ] Start with the Login and Register page
--   [ ] Layout and Header component
+-   [x] Start with the Login and Register page
+-   [x] Layout and Header component
 -   [ ] Profile page
 -   [ ] Edit profile page
 -   [x] Timeline page
