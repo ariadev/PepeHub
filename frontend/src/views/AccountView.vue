@@ -10,11 +10,11 @@
 </script>
 
 <template>
-	<div class="space-y-3 m-3 lg:mx-auto lg:w-6/12 flex flex-col">
+	<div class="main">
 		<Header />
 
-		<div class="flex w-full lg:space-x-3">
-			<main class="space-y-3 lg:w-4/6">
+		<div class="container">
+			<main class="container-body">
 				<AccountTabs />
 
 				<!--
@@ -24,7 +24,7 @@
 				<AccountYourPepes />
 			</main>
 
-			<div class="lg:w-2/6 space-y-3 hidden lg:inline-block">
+			<div class="container-sidebar">
 				<AccountProfileSidebar />
 			</div>
 		</div>
@@ -32,3 +32,21 @@
 
 	<EditProfileModal v-if="profileModalTrigger" />
 </template>
+
+<style scoped>
+	.main {
+		@apply space-y-3 m-3 lg:mx-auto lg:w-6/12 flex flex-col;
+	}
+
+	.container {
+		@apply flex w-full lg:space-x-3;
+	}
+
+	.container-body {
+		@apply space-y-3 lg:w-5/6;
+	}
+
+	.container-siderbar {
+		@apply lg:w-1/6 space-y-3 hidden lg:inline-block;
+	}
+</style>

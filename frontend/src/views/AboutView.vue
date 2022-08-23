@@ -3,11 +3,11 @@
 </script>
 
 <template>
-	<div class="space-y-3 m-3 lg:mx-auto lg:w-6/12 flex flex-col">
+	<div class="main">
 		<Header />
 
-		<div class="flex flex-col space-y-3 w-full lg:space-x-3">
-			<h3 class="text-xl py-5 border-b w-full">About PepeHub</h3>
+		<div class="container">
+			<h3 class="container-title">About PepeHub</h3>
 			<div>
 				<!-- <img src="@/assets/about" alt="about image" /> -->
 				<p>
@@ -20,4 +20,16 @@
 	</div>
 </template>
 
-<style></style>
+<style scoped>
+	.main {
+		@apply space-y-3 m-3 lg:mx-auto lg:w-6/12 flex flex-col;
+	}
+
+	.container {
+		@apply flex flex-col space-y-3 w-full lg:space-x-3;
+	}
+
+	.container-title {
+		@apply text-xl py-5 border-b w-full;
+	}
+</style>
