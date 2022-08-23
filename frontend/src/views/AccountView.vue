@@ -3,6 +3,10 @@
 	import AccountTabs from "../components/AccountTabs.vue";
 	import AccountYourPepes from "../components/AccountYourPepes.vue";
 	import AccountProfileSidebar from "../components/AccountProfileSidebar.vue";
+	import EditProfileModal from "../components/EditProfileModal.vue";
+	import { ref } from "vue";
+
+	const profileModalTrigger = ref(false);
 </script>
 
 <template>
@@ -25,4 +29,6 @@
 			</div>
 		</div>
 	</div>
+
+	<EditProfileModal v-if="profileModalTrigger" />
 </template>
