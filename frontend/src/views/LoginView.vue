@@ -69,7 +69,7 @@
 		@apply flex flex-col space-y-2;
 	}
 
-	.form-input {
+	.form-item-input {
 		@apply p-3 border rounded text-sm;
 	}
 
