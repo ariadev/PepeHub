@@ -10,11 +10,14 @@ This is the frontned of PepeHub social app built in Vue3
 -   [x] account page
 -   [x] Edit profile page
 -   [x] Timeline page
--   [ ] Fetching the data from the API and showing in the Timeline
 -   [x] Add new pepe
 -   [x] Fetching the most popular pepes
 -   [x] Fetching the most popular users
 -   [x] Search users
+-   [ ] Fetching the data from the API and showing in the Timeline
+-   [ ] Adding attachment to pepes
+-   [ ] followers/followings component
+-   [ ] Bookmark component
 
 ## Development Guide
 
