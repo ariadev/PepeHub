@@ -41,7 +41,7 @@
 		@apply space-y-3 lg:w-4/6;
 	}
 
-	.container-siderbar {
-		@apply lg:w-2/6 space-y-3 hidden lg:inline-block;
+	.container-sidebar {
+		@apply lg:w-2/6 lg:space-y-3 hidden lg:inline-block;
 	}
 </style>
