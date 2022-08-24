@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace backend.Models;
 
@@ -8,11 +9,11 @@ public class PepeVote
     public int Id {get; set;}
     public Vote Vote { get; set; }
 
-    public int UserId { get; set; } 
-    public User User { get; set; }
-
+    [ForeignKey("Pepe")]
     public int PepeId { get; set; }
-    public Pepe Pepe { get; set; }
+    public virtual Pepe Pepe { get; set; }
+    [Required]
+    public int UserId { get; set; }
 }
 
 public enum Vote { Down, Up };
