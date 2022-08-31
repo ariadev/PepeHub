@@ -16,5 +16,5 @@ public class User
     public string Avatar { get; set; }
     [Required]
     public string Bio { get; set; }
-    public List<Pepe> Pepes { get; set; }
+    public List<Pepe>? Pepes { get; set; }
 }
